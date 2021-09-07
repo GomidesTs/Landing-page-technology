@@ -38,7 +38,7 @@
 
   /* Margenes bottom */
   --mb-0-5: 0.5rem;
-  --mb-75: 0.75rem;
+  --mb-7-5: 0.75rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
@@ -365,4 +365,26 @@ main {
 .sound__description {
   margin-bottom: var(--mb-1-5);
   line-height: var(--text-line-height);
+}
+
+/* Discount */
+.discount__container {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.discount__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-7-5);
+}
+
+.discount__description{
+  margin-bottom:var(--mb-1);
+}
+
+.discount__img{
+  margin:15px auto;
+  width: 300px;
 }

@@ -438,3 +438,17 @@ main {
   padding: 0.5rem;
   border-radius: 0.35rem;
 }
+
+.footer__container {
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__footer {
+  width: 25px;
+}
+
+.name {
+  color: var(--white-color);
+  font-size: 0.7rem;
+}

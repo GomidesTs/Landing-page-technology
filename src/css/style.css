@@ -415,14 +415,15 @@ main {
   inset: 0;
   margin-right: auto;
   margin-left: auto;
-  top: -5.2rem;
+  top: -4rem;
 }
 
 .products__content {
   align-self: flex-end;
 }
 
-.products__title, .products__price {
+.products__title,
+.products__price {
   font-size: var(--small-font-size);
 }
 
